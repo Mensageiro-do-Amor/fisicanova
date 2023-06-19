@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{padding: 0;margin: 0;box-sizing: border-box;}
+img{height: 70px;width: 70px;position: absolute;margin:15px;}
+body{background-image: url(Imagem/imgfundo.jpeg);background-repeat: repeat;}
+nav{width: 100vw;height: 100px;display:inline-block;text-align: center;background-color: #13678A;}
+nav ul{list-style: none ;margin-top:2%;display: inline-block}
+nav ul li{background-color:#13678A;color: white;text-align: center;position:relative;float:left;width: 170px;height: 50px;line-height: 50px;display: inline;}
+nav ul ul {display: none;margin: 0px;}
+nav ul  li:hover> ul  {display: block;}
+nav ul li:hover> ul li:hover{background-color:rgb(255, 153, 19);}
+nav ul ul ul {margin-left: 170px;top: 0px;position:absolute;}
+a{text-decoration: none;color: white;}
